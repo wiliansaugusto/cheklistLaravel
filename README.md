@@ -1,23 +1,79 @@
-<h1>Checklist SAMU São Vicente</h1>
-<h3>Sistema desenvolvindo para auxiliar os profissionais do SAMU de São vicente a realizare o seu checklists das ambulâncias</h3>
-<p> Desenvolvido em <strong>Laravel/MySql</strong> o sistema foi desenvolvido como TCC da do curso de <strong>Analise e desenvolvimento de sistema - FAtec Praia Grande</strong> </p>
-<p>O sistema é hospedade em um servidor web compartilhado de baixo custo,nos servidores da empresa<strong><a href="https://www.hostinger.com" target="_blank">Hostinger</a></strong>.</p>
-<p>O serviço conta com uma camada de login bem simples, que após preenchida o mesmo tem acesso a diversos checklist, há algumas mudanças que eu desejo implantar, pois ficaram para o futuro</p>
-<p>Os checklists são baseados nos documentos oficiais da instituição, que foram informatizados com bases nos documentos oficiais</p>
-<p>Resumindo são formulários em php que quando enviado passa por uma camada de validação para identificar se as quantidades estão em conformidade, se não existem itens sobrando ou faltando, se as validades estão em dia e se tudo esta em conformidade!</p>
-<p>Depois de conferido os itens o sistema envia um email com um pdf anexado, esse email é enviado para o profissional e para a chefia do setor simultaneamente</p>
-<h2>Imagens do sistema</h2>
-<figure>
-	<img src="http://www.samusaovicente.cf/img/imagemBase.jpg" alt="Imagem do Email">
-	<figcaption>Imagem do caixa de email de um profissional do SAMU</figcaption>
-</figure>
-<hr><br>
-<figure>
-	<img src="http://www.samusaovicente.cf/img/imagemBase2.jpg" alt="Imagem do Pdf ChekList Mochila de Medicação">
-	<figcaption>Pdf ChekList Mochila de Medicação, pdf já calculado os vencimentos a partir da data de vencimento informada pelo usuário</figcaption>
-</figure>
-<hr><br>
-<figure>
-	<img src="http://www.samusaovicente.cf/img/imagemBase3.jpg" alt="Imagem do Pdf ChekList Mochila de Medicação">
-	<figcaption>Pdf ChekList VTR Básica, pdf já calculado se os itens estão sobrando ou faltando, para manter a conformidade</figcaption>
-</figure>
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
+
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
+- [云软科技](http://www.yunruan.ltd/)
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
